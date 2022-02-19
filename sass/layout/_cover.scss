@@ -1,0 +1,131 @@
+.cover{
+    width: 100%;
+    background: #FEF8F8;
+    &__row{
+        display: flex;
+        padding-top:80px;
+        gap:3%;
+        @media (max-width:506px) {
+            padding-top:20px;
+         }
+        
+    }
+    &__imgBody{
+        margin-bottom: 26px;
+       
+    }
+    &__body{
+        flex: 1 1 594px;
+        //border:1px solid blue;
+    }
+    &__title{
+        font-weight: 900;
+        font-size: 70px;
+        line-height:114%;
+        letter-spacing: 0.3px;
+ 
+        color: #555555;
+        margin-bottom: 30px;
+        @media (max-width:506px) {
+         
+            font-size: 28px;
+         }
+        span{
+            color: #EE9591;
+        }
+    }
+    &__text{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.3px;
+        color: #888888;
+        margin-bottom: 40px;
+        max-width: 460px;
+    }
+    &__list{
+        max-width: 460px;
+        display: flex;
+        gap:10px;
+        margin-bottom: 40px;
+       // border:1px solid;
+        @media (max-width:506px) {
+         
+            gap:2px;
+         }
+        
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+      //  border:1px solid;
+        
+      
+        img{
+           padding-right: 5px;
+            @media (max-width:506px) {
+                width: 16px;
+                height: 16px;
+             }
+        }
+        span{
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.3px;
+            color: #888888;
+            @media (max-width:506px) {
+                font-size: 12px;
+             }
+        }
+    }
+
+    &__button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 412px;
+        height: 84px;
+        background: #EE9591;
+        box-shadow: 16px 16px 60px rgba(179, 94, 90, 0.4);
+        border-radius: 10px;
+        font-size: 14px;
+        line-height: 22px;
+
+        letter-spacing: -0.3px;
+        color: #F7F7F7;
+        margin-bottom: 100px;
+        @media (max-width:506px) {
+            width: 280px;
+            font-size: 12px;
+         }
+        &--textGros{
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 26px;
+            color: #F7F7F7;
+            @media (max-width:506px) {
+                font-size: 15px;
+                
+             }
+        }
+        
+    }
+    &__img{
+        flex: 0 1 578px;
+       // border:1px solid blue;
+        position: relative;
+        @media (max-width:768px) {
+           display: none;
+        }
+        img{
+            position: absolute;
+            top:0;
+            left: 0px;
+            max-width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

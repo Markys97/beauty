@@ -1,0 +1,32 @@
+._container{
+    max-width: 1240px;
+    margin:0 auto;
+    height: auto;
+    padding:0 15px;
+    //border:1px solid red;
+    @media (max-width:768px) {
+        max-width: 608px;
+    }
+    @media (max-width:506px) {
+        max-width:unset;
+    }
+}
+.index{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+
+
+    letter-spacing: -0.3px;
+    color: #888888;
+}
+
+._bar{
+    width: 100px;
+    height: 12px;
+    top: 257px;
+    background: #EE9591;
+    border-radius: 100px;
+   
+}
