@@ -24,7 +24,7 @@ ul {
 
 @media (max-width: 768px) {
   ._container {
-    max-width: 608px;
+    max-width: 688px;
   }
 }
 
@@ -375,7 +375,7 @@ ul {
   gap: 4%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 826px) {
   .beauty__row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -694,5 +694,220 @@ ul {
 
 .items-selling__text {
   margin-bottom: 20px;
+}
+
+.udah {
+  width: 100%;
+}
+
+.udah__container {
+  padding-top: 100px;
+  background: url("../img/cercle.png") right no-repeat;
+}
+
+@media (max-width: 768px) {
+  .udah__container {
+    background-image: unset;
+  }
+}
+
+.udah__bar {
+  margin-bottom: 30px;
+}
+
+.udah__title {
+  max-width: 608px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 54px;
+  letter-spacing: -0.3px;
+  color: #555555;
+  margin-bottom: 80px;
+}
+
+.udah__title span {
+  color: #EE9591;
+}
+
+@media (max-width: 508px) {
+  .udah__title {
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .udah__title {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+.udah__row {
+  background: url("../img/points.png") center left no-repeat;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.udah__item {
+  -webkit-box-flex: 22%;
+      -ms-flex: 22%;
+          flex: 22%;
+  background: white;
+  margin: 20px 15px;
+  background: #FFFBFB;
+  -webkit-box-shadow: 50px 50px 60px rgba(85, 85, 85, 0.08);
+          box-shadow: 50px 50px 60px rgba(85, 85, 85, 0.08);
+  border-radius: 16px;
+}
+
+.udah__img {
+  width: 76px;
+  height: 76px;
+  background: #F7C7C4;
+  margin: 33px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+
+.udah__description {
+  margin-bottom: 37px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  padding: 0 32px;
+  color: #888888;
+}
+
+.mentor {
+  width: 100%;
+}
+
+.mentor__container {
+  padding-top: 87px;
+}
+
+@media (max-width: 768px) {
+  .mentor__container {
+    padding-top: 20px;
+  }
+}
+
+.mentor__header {
+  padding-top: 83px;
+  max-width: 740px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.mentor__title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: calc(54px/ 40px* 100%);
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #555555;
+}
+
+.mentor__title span {
+  color: #EE9591;
+}
+
+@media (max-width: 506px) {
+  .mentor__title {
+    font-size: 26px;
+  }
+}
+
+.mentor__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #888888;
+}
+
+.mentor__row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2%;
+}
+
+@media (max-width: 768px) {
+  .mentor__row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.mentor__item {
+  -ms-flex-preferred-size: calc(25%- (3.87%* 3));
+      flex-basis: calc(25%- (3.87%* 3));
+}
+
+@media (max-width: 768px) {
+  .mentor__item {
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+    margin-bottom: 20px;
+  }
+}
+
+.mentor__img {
+  margin-bottom: 26px;
+}
+
+.mentor__img img {
+  max-width: 100%;
+}
+
+.mentor__name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  margin-bottom: 4px;
+}
+
+.mentor__work {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  letter-spacing: 0.2px;
+  /* Brand Primary */
+  color: #EE9591;
+  margin-bottom: 4px;
+}
+
+.mentor__team {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #888888;
 }
 /*# sourceMappingURL=main.css.map */
