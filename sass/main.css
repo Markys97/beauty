@@ -34,7 +34,7 @@ ul {
   }
 }
 
-.index {
+.page {
   position: relative;
   font-family: Roboto;
   font-style: normal;
@@ -208,6 +208,10 @@ ul {
 
 .open-menu {
   left: 0px;
+}
+
+.isOpen {
+  overflow: hidden;
 }
 
 .cover {
